@@ -1,0 +1,42 @@
+[
+    {
+        "userName": "내 스토리",
+        "state": "read",
+        "profileImg": "1.jpg"
+    },
+    {
+        "userName": "omen.mov",
+        "state": "new",
+        "profileImg": "2.jpg"
+    },
+    {
+        "userName": "omen.mov",
+        "state": "new",
+        "profileImg": "3.jpg"
+    },
+    {
+        "userName": "omen.mov",
+        "state": "friend",
+        "profileImg": "4.jpg"
+    },
+    {
+        "userName": "omen.mov",
+        "state": "read",
+        "profileImg": "5.jpg"
+    },
+    {
+        "userName": "omen.mov",
+        "state": "read",
+        "profileImg": "6.jpg"
+    },
+    {
+        "userName": "omen.mov",
+        "state": "read",
+        "profileImg": "7.jpg"
+    },
+    {
+        "userName": "omen.mov",
+        "state": "read",
+        "profileImg": "8.jpg"
+    }
+]

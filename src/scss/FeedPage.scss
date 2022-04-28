@@ -1,0 +1,48 @@
+#feed-container {
+    display: block;
+    margin: 24px auto;
+    width: 600px;
+
+    #story-field {
+        position: relative;
+        width: 100%;
+        border-radius: 3px;
+        border: 1px solid var(--gray10);
+        background-color: white;
+        overflow: hidden;
+
+        #story-list {
+            display: flex;
+            flex-direction: row;
+            margin: 16px 0;
+            padding: 0 16px;
+            transition: 0.7s all cubic-bezier(0.23, 1, 0.32, 1);
+        }
+
+        button {
+            background: white;
+            position: absolute;
+            top: calc((100% - 24px) / 2);
+            border-radius: 50px;
+            outline: none;
+            appearance: none;
+            border: none;
+            width: 24px;
+            height: 24px;
+            box-shadow: 0 0 16px var(--gray40);
+            cursor: pointer;
+
+            &#prev {
+                left: 12px;
+            }
+
+            &#next {
+                right: 12px;
+            }
+        }
+    }
+
+    #feed-list {
+        width: 100%;
+    }
+}
