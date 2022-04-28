@@ -3,8 +3,13 @@
         <div class="story-thumbnail-wrapper">
             <div v-if="this.itemData.state === 'read'" class="story-thumbnail-border read"></div>
             <div v-else-if="this.itemData.state === 'new'" class="story-thumbnail-border new"></div>
-            <div v-else-if="this.itemData.state === 'friend'" class="story-thumbnail-border friend"></div>
-            <div class="story-thumbnail"><img :src="require(`@/assets/${this.itemData.profileImg}`)" loading="lazy" /></div>
+            <div
+                v-else-if="this.itemData.state === 'friend'"
+                class="story-thumbnail-border friend"
+            ></div>
+            <div class="story-thumbnail">
+                <img :src="require(`@/assets/${this.itemData.profileImg}`)" loading="lazy" />
+            </div>
         </div>
         <div class="story-user">{{ this.itemData.userName }}</div>
     </div>

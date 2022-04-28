@@ -19,8 +19,20 @@ const routes = [
         children: [
             { path: '/main', component: () => import('@/views/FeedPage') },
             { path: '/dm', component: () => import('@/views/DirectMsg') },
-            { path: '/explore', component: () => import('@/views/ExplorePage') },
+            {
+                path: '/explore',
+                component: () => import('@/views/ExplorePage'),
+            },
         ],
+        meta: {
+            requiresAuth: true,
+        },
+    },
+    {
+        path: '/stories/:userName/:storyId',
+        name: 'stories',
+        component: () => import(`@/views/StoryPage`),
+        props: true,
         meta: {
             requiresAuth: true,
         },

@@ -20,15 +20,21 @@
         }
 
         button {
-            background: white;
-            position: absolute;
-            top: calc((100% - 24px) / 2);
-            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 24px;
+            height: 24px;
+
+            background: none;
+            border-radius: 100%;
             outline: none;
             appearance: none;
             border: none;
-            width: 24px;
-            height: 24px;
+            z-index: 998;
+
+            position: absolute;
+            top: calc((100% - 24px) / 2);
             box-shadow: 0 0 16px var(--gray40);
             cursor: pointer;
 

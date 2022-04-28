@@ -18,12 +18,20 @@
             <button @click="navbtnClick(1)">
                 <router-link to="/dm"><span :class="outlinedStyle(1)">chat</span></router-link>
             </button>
-            <button @click="navbtnsClick(2)"><span :class="outlinedStyle(2)">add_box</span></button>
-            <button @click="navbtnClick(3)">
-                <router-link to="/explore"><span :class="outlinedStyle(3)">explore</span></router-link>
+            <button @click="navbtnsClick(2)">
+                <span :class="outlinedStyle(2)">add_box</span>
             </button>
-            <button @click="navbtnClick(4)"><span :class="outlinedStyle(4)">favorite_border</span></button>
-            <button @click="navbtnClick(5)"><span :class="outlinedStyle(5)">account_circle</span></button>
+            <button @click="navbtnClick(3)">
+                <router-link to="/explore"
+                    ><span :class="outlinedStyle(3)">explore</span></router-link
+                >
+            </button>
+            <button @click="navbtnClick(4)">
+                <span :class="outlinedStyle(4)">favorite_border</span>
+            </button>
+            <button @click="navbtnClick(5)">
+                <span :class="outlinedStyle(5)">account_circle</span>
+            </button>
         </section>
     </header>
 </template>
@@ -44,7 +52,9 @@
         unmounted() {},
         methods: {
             outlinedStyle(btnIndex) {
-                return this.activebtn === btnIndex ? 'material-icons md-28' : 'material-icons-outlined md-28';
+                return this.activebtn === btnIndex
+                    ? 'material-icons md-28'
+                    : 'material-icons-outlined md-28';
             },
 
             navbtnClick(btnIndex) {

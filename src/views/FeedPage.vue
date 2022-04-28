@@ -5,10 +5,27 @@
                 <!-- <li v-for="(item, idx) in this.storyList" :key="idx">
                     <span>{{ item.profileImg }}</span>
                 </li> -->
-                <StoryComp v-for="(item, idx) in this.storyList" :key="idx" :item-data="item"></StoryComp>
+                <StoryComp
+                    v-for="(item, idx) in this.storyList"
+                    :key="idx"
+                    :item-data="item"
+                    @click="showStory(idx)"
+                ></StoryComp>
             </div>
-            <button id="prev" @click="slideTo(this.storyCurIdx - 5)" v-show="this.storyCurIdx !== 0">◀</button>
-            <button id="next" @click="slideTo(this.storyCurIdx + 5)" v-show="this.storyCurIdx !== 1">▶</button>
+            <button
+                id="prev"
+                @click="slideTo(this.storyCurIdx - 5)"
+                v-show="this.storyCurIdx !== 0"
+            >
+                <span class="material-icons md-28 md-light"> arrow_circle_left </span>
+            </button>
+            <button
+                id="next"
+                @click="slideTo(this.storyCurIdx + 5)"
+                v-show="this.storyCurIdx !== 1"
+            >
+                <span class="material-icons md-28 md-light"> arrow_circle_right </span>
+            </button>
         </section>
 
         <section id="feed-list">
@@ -35,6 +52,7 @@
     import FeedComp from '@/components/FeedComp.vue';
     import StoryComp from '@/components/StoryComp.vue';
     import storydata from '@/assets/data/storydata.json';
+    import storylistdata from '@/assets/data/storylist.json';
 
     export default {
         name: 'FeedPage',
@@ -55,7 +73,19 @@
         methods: {
             getStoryList() {
                 this.storyList = storydata;
-                console.log(this.storyList[0]);
+            },
+
+            showStory(idx) {
+                // this.$emit('story-click', idx);
+                let tmpList = storylistdata;
+                console.log(tmpList[idx]);
+                this.$router.push({
+                    name: 'stories',
+                    params: {
+                        userName: tmpList[idx].userName,
+                        storyId: tmpList[idx].storyList[0].storyId,
+                    },
+                });
             },
 
             slideTo(storyIdx) {

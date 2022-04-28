@@ -67,10 +67,19 @@
         }
 
         button {
+            border: none;
+            border-radius: 100%;
+            background: none;
+            outline: none;
+            appearance: none;
+
             width: 24px;
             height: 24px;
             position: absolute;
-            top: calc((600px - 24px) / 2);
+            top: calc((100% - 24px) / 2);
+
+            box-shadow: 0 0 16px var(--gray40);
+            cursor: pointer;
 
             &#prev-btn {
                 left: 12px;

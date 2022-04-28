@@ -8,7 +8,9 @@
             </div>
             <div class="user-info">
                 <span class="user-name">{{ this.userName }}</span>
-                <span class="feed-location" v-if="this.postLocation !== undefined">{{ this.postLocation }}</span>
+                <span class="feed-location" v-if="this.postLocation !== undefined">{{
+                    this.postLocation
+                }}</span>
             </div>
             <div class="more-detail">
                 <span class="material-icons-outlined"> more_horiz </span>
@@ -21,19 +23,39 @@
                 </div>
             </div>
 
-            <button id="prev-btn" v-show="imgcur !== 0" @click="slideTo(imgcur - 1)">◀</button>
-            <button id="next-btn" v-show="imgcur !== this.imageList.length - 1" @click="slideTo(imgcur + 1)">▶</button>
+            <button id="prev-btn" v-show="imgcur !== 0" @click="slideTo(imgcur - 1)">
+                <span class="material-icons md-28 md-light"> arrow_circle_left </span>
+            </button>
+            <button
+                id="next-btn"
+                v-show="imgcur !== this.imageList.length - 1"
+                @click="slideTo(imgcur + 1)"
+            >
+                <span class="material-icons md-28 md-light"> arrow_circle_right </span>
+            </button>
 
             <div class="image-list-navi" v-if="this.imageList.length != 1">
-                <div :class="idx === this.imgcur ? 'page-circle cur' : 'page-circle'" v-for="(image, idx) in this.imageList" :key="idx" />
+                <div
+                    :class="idx === this.imgcur ? 'page-circle cur' : 'page-circle'"
+                    v-for="(image, idx) in this.imageList"
+                    :key="idx"
+                />
             </div>
         </div>
         <div class="feed-footer">
             <div class="feed-btn-field">
-                <button><span class="material-icons-outlined md-28"> favorite_border </span></button>
-                <button><span class="material-icons-outlined md-28"> comment </span></button>
-                <button><span class="material-icons-outlined md-28"> send </span></button>
-                <button><span class="material-icons-outlined md-28"> turned_in_not </span></button>
+                <button>
+                    <span class="material-icons-outlined md-28"> favorite_border </span>
+                </button>
+                <button>
+                    <span class="material-icons-outlined md-28"> comment </span>
+                </button>
+                <button>
+                    <span class="material-icons-outlined md-28"> send </span>
+                </button>
+                <button>
+                    <span class="material-icons-outlined md-28"> turned_in_not </span>
+                </button>
             </div>
 
             <div class="feed-heart-field">
@@ -52,13 +74,17 @@
                 <div class="comment-field">
                     <span class="comment-user">food.tomorrow</span>
                     <span class="comment-content">옴뇸뇸</span>
-                    <span class="comment-heart"><span class="material-icons-outlined md-18"> favorite_border </span></span>
+                    <span class="comment-heart"
+                        ><span class="material-icons-outlined md-18"> favorite_border </span></span
+                    >
                 </div>
             </div>
             <div class="feed-date">1시간 전</div>
         </div>
         <div class="feed-comment-writing-field">
-            <button id="comment-emoji"><span class="material-icons-outlined md-28"> emoji_emotions </span></button>
+            <button id="comment-emoji">
+                <span class="material-icons-outlined md-28"> emoji_emotions </span>
+            </button>
             <input type="text" name="" id="" placeholder="댓글 달기..." v-model="sampleData" />
             <button id="comment-send" :class="sampleData ? 'active' : ''">게시</button>
         </div>

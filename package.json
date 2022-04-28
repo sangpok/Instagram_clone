@@ -46,7 +46,12 @@
             "prettier/prettier": [
                 "error",
                 {
-                    "endOfLine": "auto"
+                    "useTabs": false,
+                    "tabWidth": 4,
+                    "singleQuote": true,
+                    "vueIndentScriptAndStyle": true,
+                    "endOfLine": "auto",
+                    "printWidth": 100
                 }
             ]
         }

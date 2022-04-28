@@ -6,9 +6,26 @@
         <section class="field-wrap">
             <section class="login-field">
                 <p id="logo">Instagram</p>
-                <input type="email" name="useremail" id="email" placeholder="전화번호, 사용자 이름 또는 이메일" @input="checkLogin" v-model="useremail" />
-                <input type="password" name="userpw" id="password" placeholder="비밀번호" @input="checkLogin" v-model="userpw" />
-                <button id="login-btn" :class="isActive ? 'active' : ''" @click="login">로그인</button>
+                <input
+                    type="email"
+                    name="useremail"
+                    id="email"
+                    placeholder="전화번호, 사용자 이름 또는 이메일"
+                    @input="checkLogin"
+                    v-model="useremail"
+                />
+                <input
+                    type="password"
+                    name="userpw"
+                    id="password"
+                    placeholder="비밀번호"
+                    @input="checkLogin"
+                    @keyup.enter="login"
+                    v-model="userpw"
+                />
+                <button id="login-btn" :class="isActive ? 'active' : ''" @click="login">
+                    로그인
+                </button>
                 <div class="delimiter-field">
                     <div class="line"></div>
                     <span class="description">또는</span>
@@ -23,7 +40,9 @@
                 </router-link>
             </section>
 
-            <section class="signin-field">계정이 없으신가요? <router-link to="/">가입하기</router-link></section>
+            <section class="signin-field">
+                계정이 없으신가요? <router-link to="/">가입하기</router-link>
+            </section>
             <section class="download-field">
                 <span>앱을 다운로드하세요.</span>
                 <div class="button-field">

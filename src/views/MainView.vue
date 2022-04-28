@@ -28,13 +28,12 @@
         unmounted() {},
         methods: {
             notificationClick() {
-                console.log('HI');
                 this.notificationShow = !this.notificationShow;
             },
 
             clickHandler(event) {
                 let parentEle = event.target.parentNode.tagName;
-                console.log('hih');
+
                 if (this.notificationShow && parentEle.toLowerCase() !== 'button') {
                     if (event.target.className !== 'content') this.notificationShow = false;
                 }

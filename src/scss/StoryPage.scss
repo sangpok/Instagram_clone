@@ -1,0 +1,171 @@
+#story-page {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--gray100);
+
+    header {
+        padding: 12px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        #logo {
+            color: white;
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 800;
+            text-align: center;
+        }
+
+        #close {
+            border: none;
+            outline: none;
+            appearance: none;
+            background: none;
+            cursor: pointer;
+        }
+    }
+
+    #story-list-field {
+        display: block;
+        background-color: var(--gray100);
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        height: 100vh;
+        color: white;
+
+        .story-item-field {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+            margin: 0 auto;
+
+            &:hover {
+                button#prev {
+                    opacity: 1;
+                }
+                button#next {
+                    opacity: 1;
+                }
+            }
+
+            button {
+                border: none;
+                outline: none;
+                appearance: none;
+                background: none;
+                cursor: pointer;
+                transition: 0.1s opacity ease-in-out;
+                &#prev {
+                    opacity: 0.3;
+                }
+                &#next {
+                    opacity: 0.3;
+                }
+            }
+
+            .story-content {
+                position: relative;
+                border-radius: 10px;
+                margin: 0 12px;
+                width: 500px;
+                height: 850px;
+                overflow: hidden;
+
+                .content-src {
+                    position: relative;
+                    width: auto;
+                    height: 100%;
+
+                    img {
+                        position: absolute;
+                        top: 0;
+                        left: -50%;
+                        height: 100%;
+                    }
+                }
+
+                .content-overlay {
+                    position: absolute;
+                    padding: 12px;
+                    width: calc(100% - 12px);
+                    top: 0;
+                    left: 0;
+
+                    .story-timeline {
+                        display: flex;
+                        flex-direction: row;
+                        margin-bottom: 12px;
+                        width: 100%;
+
+                        .timeline-item {
+                            width: 100%;
+                            height: 2px;
+                            background-color: red;
+                            margin-right: 3px;
+                            border-radius: 100%;
+
+                            &:last-of-type {
+                                margin-right: 0;
+                            }
+                        }
+                    }
+
+                    .story-user-info {
+                        display: flex;
+                        justify-content: space-between;
+                        flex-direction: row;
+                        align-items: center;
+
+                        .ele-group {
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            font-size: 14px;
+
+                            img {
+                                margin-right: 8px;
+                                border-radius: 100%;
+                                width: 32px;
+                                height: 32px;
+                            }
+
+                            span {
+                                color: white;
+
+                                &#username {
+                                    margin-right: 8px;
+                                }
+
+                                &#upload-date {
+                                    font-weight: 700;
+                                    color: var(--gray55);
+                                }
+                            }
+
+                            .friendonly {
+                                font-size: 12px;
+                                font-weight: 700;
+                                background-color: var(--good);
+                                padding: 6px;
+                                border-radius: 4px;
+                                margin-right: 14px;
+                            }
+
+                            button {
+                                margin-right: 12px;
+
+                                &:last-of-type {
+                                    margin-right: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

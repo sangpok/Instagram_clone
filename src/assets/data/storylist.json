@@ -1,0 +1,142 @@
+[
+    {
+        "userName": "omen.mov",
+        "profileImg": "1.jpg",
+        "storyList": [
+            {
+                "storyId": "20220428101053",
+                "storyState": "read",
+                "storyDate": "2022-04-28 10:10",
+                "storyImg": "1.jpg",
+                "storyDuration": "5"
+            },
+            {
+                "storyId": "20220428101535",
+                "storyState": "new",
+                "storyDate": "2022-04-28 15:35",
+                "storyImg": "1.jpg",
+                "storyDuration": "5"
+            }
+        ]
+    },
+    {
+        "userName": "social_lifer_",
+        "profileImg": "2.jpg",
+        "storyList": [
+            {
+                "storyId": "20220428101053",
+                "storyState": "friend",
+                "storyDate": "2022-04-28 10:10",
+                "storyImg": "2.jpg",
+                "storyDuration": "15"
+            },
+            {
+                "storyId": "20220428101535",
+                "storyState": "new",
+                "storyDate": "2022-04-28 15:35",
+                "storyImg": "2.jpg",
+                "storyDuration": "5"
+            }
+        ]
+    },
+    {
+        "userName": "du_forest.nut",
+        "profileImg": "3.jpg",
+        "storyList": [
+            {
+                "storyId": "20220428101053",
+                "storyState": "friend",
+                "storyDate": "2022-04-28 10:10",
+                "storyImg": "3.jpg",
+                "storyDuration": "15"
+            },
+            {
+                "storyId": "20220428101535",
+                "storyState": "new",
+                "storyDate": "2022-04-28 15:35",
+                "storyImg": "3.jpg",
+                "storyDuration": "5"
+            }
+        ]
+    },
+    {
+        "userName": "ju_hyun.kim",
+        "profileImg": "4.jpg",
+        "storyList": [
+            {
+                "storyId": "20220428101053",
+                "storyState": "friend",
+                "storyDate": "2022-04-28 10:10",
+                "storyImg": "4.jpg",
+                "storyDuration": "15"
+            },
+            {
+                "storyId": "20220428101535",
+                "storyState": "new",
+                "storyDate": "2022-04-28 15:35",
+                "storyImg": "4.jpg",
+                "storyDuration": "5"
+            }
+        ]
+    },
+    {
+        "userName": "d_hyenii",
+        "profileImg": "5.jpg",
+        "storyList": [
+            {
+                "storyId": "20220428101053",
+                "storyState": "friend",
+                "storyDate": "2022-04-28 10:10",
+                "storyImg": "5.jpg",
+                "storyDuration": "15"
+            },
+            {
+                "storyId": "20220428101535",
+                "storyState": "new",
+                "storyDate": "2022-04-28 15:35",
+                "storyImg": "5.jpg",
+                "storyDuration": "5"
+            }
+        ]
+    },
+    {
+        "userName": "mix__xx2",
+        "profileImg": "6.jpg",
+        "storyList": [
+            {
+                "storyId": "20220428101053",
+                "storyState": "friend",
+                "storyDate": "2022-04-28 10:10",
+                "storyImg": "6.jpg",
+                "storyDuration": "15"
+            },
+            {
+                "storyId": "20220428101535",
+                "storyState": "new",
+                "storyDate": "2022-04-28 15:35",
+                "storyImg": "6.jpg",
+                "storyDuration": "5"
+            }
+        ]
+    },
+    {
+        "userName": "food.tomorrow",
+        "profileImg": "7.jpg",
+        "storyList": [
+            {
+                "storyId": "20220428101053",
+                "storyState": "friend",
+                "storyDate": "2022-04-28 10:10",
+                "storyImg": "7.jpg",
+                "storyDuration": "15"
+            },
+            {
+                "storyId": "20220428101535",
+                "storyState": "new",
+                "storyDate": "2022-04-28 15:35",
+                "storyImg": "7.jpg",
+                "storyDuration": "5"
+            }
+        ]
+    }
+]
