@@ -1,13 +1,15 @@
 #story-page {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: var(--gray100);
 
     header {
+        height: 100vh;
         padding: 12px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: flex-start;
 
         #logo {
             color: white;
@@ -15,6 +17,7 @@
             font-size: 24px;
             font-weight: 800;
             text-align: center;
+            cursor: pointer;
         }
 
         #close {
@@ -27,12 +30,11 @@
     }
 
     #story-list-field {
-        display: block;
-        background-color: var(--gray100);
+        display: flex;
+        flex-direction: row;
         position: absolute;
-        top: 50px;
+        top: calc((100% - 850px) / 2);
         width: 100%;
-        height: 100vh;
         color: white;
 
         .story-item-field {
@@ -90,15 +92,19 @@
 
                 .content-overlay {
                     position: absolute;
-                    padding: 12px;
-                    width: calc(100% - 12px);
+                    width: 100%;
+                    height: 100%;
                     top: 0;
                     left: 0;
+
+                    &.nd {
+                        background-color: rgba(#000, 0.5);
+                    }
 
                     .story-timeline {
                         display: flex;
                         flex-direction: row;
-                        margin-bottom: 12px;
+                        padding: 18px 16px;
                         width: 100%;
 
                         .timeline-item {
@@ -119,6 +125,7 @@
                         justify-content: space-between;
                         flex-direction: row;
                         align-items: center;
+                        padding: 0 16px;
 
                         .ele-group {
                             display: flex;
@@ -161,6 +168,67 @@
                                 &:last-of-type {
                                     margin-right: 0;
                                 }
+                            }
+                        }
+                    }
+
+                    .emoji-field {
+                        position: absolute;
+                        bottom: 80px;
+                        width: 100%;
+                        font-size: 46px;
+
+                        .emoji-content {
+                            width: fit-content;
+                            margin: 0 auto;
+
+                            span {
+                                display: block;
+                                width: fit-content;
+                                font-size: 18px;
+                                font-weight: 700;
+                                color: white;
+                                margin: 0 auto;
+                                margin-bottom: 16px;
+                            }
+
+                            .emoji-list {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr 1fr 1fr;
+                            }
+                        }
+                    }
+
+                    .story-footer {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        position: absolute;
+                        bottom: 0;
+                        width: 100%;
+                        padding: 16px;
+
+                        input[type='text'] {
+                            border: 1px solid white;
+                            border-radius: 42px;
+                            background: none;
+                            outline: none;
+                            appearance: none;
+                            width: 100%;
+                            height: 42px;
+                            margin-right: 14px;
+
+                            text-indent: 16px;
+                            color: white;
+
+                            &::placeholder {
+                                color: white;
+                            }
+                        }
+
+                        button {
+                            &#like {
+                                margin-right: 14px;
                             }
                         }
                     }

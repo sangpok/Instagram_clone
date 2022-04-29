@@ -2,9 +2,7 @@
     <div class="feed-item">
         <div class="feed-header">
             <div class="user-thumbnail">
-                <img
-                    src="https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTdfNDcg/MDAxNTcxMjQwMzM5ODk0.RJncMKyf94amjwZdZmF0Lc0yR62gKWF1UPNkj3UQqBQg.QKJeYH2cz8YMWagAgG0QZGGSATiWbZTrQ1vzmEsnJ-gg.JPEG.pikachusl/itsuyoung_29094963_535815533480315_923688431320563712_n.jpg?type=w800"
-                />
+                <img :src="require('@/assets/1.jpg')" />
             </div>
             <div class="user-info">
                 <span class="user-name">{{ this.userName }}</span>
@@ -59,11 +57,7 @@
             </div>
 
             <div class="feed-heart-field">
-                <img
-                    src="https://s3.ap-northeast-2.amazonaws.com/event-localnaeil/FileData/Article/202112/53638c3a-08f1-41c9-9a15-f17b8b2355ad.jpg"
-                    alt=""
-                    srcset=""
-                />
+                <img :src="require('@/assets/2.jpg')" alt="" srcset="" />
                 <span><strong>mix__xx2</strong>님 외 <strong>여러 명</strong>이 좋아합니다.</span>
             </div>
             <div class="feed-writting">
