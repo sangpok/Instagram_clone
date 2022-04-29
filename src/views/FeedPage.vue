@@ -44,6 +44,36 @@
                     require('@/assets/8.jpg'),
                 ]"
             />
+            <FeedComp
+                user-name="omen.mov"
+                post-location="greenwich Park"
+                :image-list="[
+                    require('@/assets/0.jpg'),
+                    require('@/assets/1.jpg'),
+                    require('@/assets/2.jpg'),
+                    require('@/assets/3.jpg'),
+                    require('@/assets/4.jpg'),
+                    require('@/assets/5.jpg'),
+                    require('@/assets/6.jpg'),
+                    require('@/assets/7.jpg'),
+                    require('@/assets/8.jpg'),
+                ]"
+            />
+            <FeedComp
+                user-name="omen.mov"
+                post-location="greenwich Park"
+                :image-list="[
+                    require('@/assets/0.jpg'),
+                    require('@/assets/1.jpg'),
+                    require('@/assets/2.jpg'),
+                    require('@/assets/3.jpg'),
+                    require('@/assets/4.jpg'),
+                    require('@/assets/5.jpg'),
+                    require('@/assets/6.jpg'),
+                    require('@/assets/7.jpg'),
+                    require('@/assets/8.jpg'),
+                ]"
+            />
         </section>
     </section>
 </template>

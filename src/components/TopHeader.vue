@@ -1,39 +1,43 @@
 <template>
-    <header>
-        <section id="logo">
-            <router-link to="/main">Instagram</router-link>
-        </section>
+    <div id="top-header">
+        <header>
+            <section id="logo">
+                <router-link to="/main">Instagram</router-link>
+            </section>
 
-        <section id="search-field">
-            <div class="search-box">
-                <span class="material-icons md-24">search</span>
-                <input type="text" v-model="searchText" placeholder="검색" />
-            </div>
-        </section>
+            <section id="search-field">
+                <div class="search-box">
+                    <span class="material-icons md-24">search</span>
+                    <input type="text" v-model="searchText" placeholder="검색" />
+                </div>
+            </section>
 
-        <section id="navbtn-field">
-            <button @click="navbtnClick(0)">
-                <router-link to="/main"><span :class="outlinedStyle(0)">home</span></router-link>
-            </button>
-            <button @click="navbtnClick(1)">
-                <router-link to="/dm"><span :class="outlinedStyle(1)">chat</span></router-link>
-            </button>
-            <button @click="navbtnsClick(2)">
-                <span :class="outlinedStyle(2)">add_box</span>
-            </button>
-            <button @click="navbtnClick(3)">
-                <router-link to="/explore"
-                    ><span :class="outlinedStyle(3)">explore</span></router-link
-                >
-            </button>
-            <button @click="navbtnClick(4)">
-                <span :class="outlinedStyle(4)">favorite_border</span>
-            </button>
-            <button @click="navbtnClick(5)">
-                <span :class="outlinedStyle(5)">account_circle</span>
-            </button>
-        </section>
-    </header>
+            <section id="navbtn-field">
+                <button @click="navbtnClick(0)">
+                    <router-link to="/main"
+                        ><span :class="outlinedStyle(0)">home</span></router-link
+                    >
+                </button>
+                <button @click="navbtnClick(1)">
+                    <router-link to="/dm"><span :class="outlinedStyle(1)">chat</span></router-link>
+                </button>
+                <button @click="navbtnsClick(2)">
+                    <span :class="outlinedStyle(2)">add_box</span>
+                </button>
+                <button @click="navbtnClick(3)">
+                    <router-link to="/explore"
+                        ><span :class="outlinedStyle(3)">explore</span></router-link
+                    >
+                </button>
+                <button @click="navbtnClick(4)">
+                    <span :class="outlinedStyle(4)">favorite_border</span>
+                </button>
+                <button @click="navbtnClick(5)">
+                    <span :class="outlinedStyle(5)">account_circle</span>
+                </button>
+            </section>
+        </header>
+    </div>
 </template>
 
 <script>
