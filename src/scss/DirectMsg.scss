@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 24px auto;
+    border: 1px solid var(--gray40);
+    padding: 24px;
+
+    .item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 12px;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        .img-wrapper {
+            position: relative;
+            width: 52px;
+            height: 52px;
+            border-radius: 100%;
+            overflow: hidden;
+            margin-right: 12px;
+        }
+        img {
+            // position: absolute;
+            width: 52px;
+            height: 52px;
+            object-fit: cover;
+        }
+
+        .elegroup {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            .info1 {
+                font-weight: 700;
+                font-size: 14px;
+            }
+
+            .info2 {
+                font-size: 12px;
+            }
+        }
+
+        .btn {
+            min-width: fit-content;
+        }
+    }
+}

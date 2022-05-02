@@ -46,7 +46,7 @@
             "prettier/prettier": [
                 "error",
                 {
-                    "useTabs": true,
+                    "useTabs": false,
                     "tabWidth": 4,
                     "singleQuote": true,
                     "vueIndentScriptAndStyle": true,
