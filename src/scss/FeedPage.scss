@@ -98,6 +98,7 @@
             background: none;
             outline: none;
             appearance: none;
+            cursor: pointer;
 
             &#account-change {
                 color: var(--point);
@@ -134,30 +135,14 @@
                 align-items: center;
                 margin-bottom: 12px;
 
-                .img-wrapper {
-                    width: 32px;
-                    height: 32px;
-                    margin-right: 12px;
-                    border-radius: 100%;
-
-                    img {
-                        object-fit: cover;
-                        width: 32px;
-                        height: 32px;
-                        border-radius: 100%;
-                    }
-                }
-
                 img {
-                    display: block;
-                    object-fit: cover;
+                    border-radius: 100%;
+                    margin-right: 12px;
                     min-width: 32px;
                     max-width: 32px;
                     min-height: 32px;
                     max-height: 32px;
-                    border-radius: 100%;
-                    margin-right: 12px;
-                    border-radius: 100%;
+                    object-fit: cover;
                 }
 
                 .info-field {
@@ -182,6 +167,7 @@
                     background: none;
                     outline: none;
                     appearance: none;
+                    cursor: pointer;
 
                     &#follow-btn {
                         color: var(--point);

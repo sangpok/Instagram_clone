@@ -133,11 +133,17 @@
                             align-items: center;
                             font-size: 14px;
 
-                            img {
-                                margin-right: 8px;
-                                border-radius: 100%;
+                            .img-wrapper {
                                 width: 32px;
                                 height: 32px;
+                                border-radius: 100%;
+                                overflow: hidden;
+                                margin-right: 8px;
+
+                                img {
+                                    width: 32px;
+                                    height: 32px;
+                                }
                             }
 
                             span {

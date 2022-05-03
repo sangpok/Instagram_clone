@@ -36,18 +36,26 @@
                     <span :class="outlinedStyle(5)">account_circle</span>
                 </button>
             </section>
+
+            <NotificationCenter v-show="anotherClicked"></NotificationCenter>
         </header>
     </div>
 </template>
 
 <script>
+    import NotificationCenter from '@/components/NotificationCenter';
+
     export default {
         name: 'TopHeader',
-        components: {},
+        components: { NotificationCenter },
+        props: {
+            anotherClicked: Boolean,
+        },
         data() {
             return {
                 searchText: '',
                 activebtn: 0,
+                notificationShow: false,
             };
         },
         setup() {},
@@ -80,7 +88,8 @@
                         break;
                     case 4:
                         console.log('heart');
-                        this.$emit('notification-click');
+                        // this.$emit('notification-click');
+                        this.notificationShow = !this.notificationShow;
                         break;
                     case 5:
                         console.log('myprofile');

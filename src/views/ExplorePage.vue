@@ -24,14 +24,14 @@
         },
         setup() {},
         created() {
-            window.addEventListener('keyup', this.keyboardNext);
+            window.addEventListener('keydown', this.keyboardNext);
         },
         mounted() {
             this.nextTo(this.curIdx);
         },
         unmounted() {},
         beforeUnmount() {
-            window.removeEventListener('keyup', this.keyboardNext);
+            window.removeEventListener('keydown', this.keyboardNext);
         },
         methods: {
             nextTo(idx) {
@@ -51,6 +51,7 @@
             },
 
             keyboardNext(e) {
+                console.log(e);
                 if (e.code === 'ArrowRight') {
                     this.nextTo(this.curIdx + 1);
                 } else if (e.code === 'ArrowLeft') {

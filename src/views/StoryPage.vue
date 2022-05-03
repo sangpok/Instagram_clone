@@ -24,7 +24,9 @@
                         </div>
                         <div class="story-user-info">
                             <div class="ele-group">
-                                <img :src="require(`@/assets/1.jpg`)" />
+                                <div class="img-wrapper">
+                                    <img :src="require(`@/assets/1.jpg`)" />
+                                </div>
                                 <span id="username">omen.mov</span>
                                 <span id="upload-date">10시간 전</span>
                             </div>
@@ -95,7 +97,9 @@
                         </div>
                         <div class="story-user-info">
                             <div class="ele-group">
-                                <img :src="require(`@/assets/1.jpg`)" />
+                                <div class="img-wrapper">
+                                    <img :src="require(`@/assets/1.jpg`)" />
+                                </div>
                                 <span id="username">omen.mov</span>
                                 <span id="upload-date">10시간 전</span>
                             </div>
@@ -175,8 +179,11 @@
         created() {},
         mounted() {
             this.printStoryInfo();
+            window.addEventListener('keydown', this.keyeventHandler);
         },
-        unmounted() {},
+        unmounted() {
+            window.removeEventListener('keydown', this.keyeventHandler);
+        },
         methods: {
             printStoryInfo() {
                 let listData = storylistdata;
@@ -201,6 +208,16 @@
 
             ndToggle() {
                 this.ndApply = true;
+            },
+
+            keyeventHandler(e) {
+                if (e.code === 'Escape') {
+                    this.close();
+                } else if (e.code === 'ArrowRight') {
+                    console.log('Right');
+                } else if (e.code === 'ArrowLeft') {
+                    console.log('Left');
+                }
             },
         },
     };

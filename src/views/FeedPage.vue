@@ -91,7 +91,6 @@
                 <div id="recommend-list">
                     <div class="recommend-item">
                         <img :src="require('@/assets/6.jpg')" alt="" srcset="" />
-
                         <div class="info-field">
                             <span class="account-id">hiking_song</span>
                             <span class="account-name">hyeondongee님 외 8명이 팔로우합..</span>
