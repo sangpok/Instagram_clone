@@ -19,7 +19,9 @@
                     >
                 </button>
                 <button @click="navbtnClick(1)">
-                    <router-link to="/dm"><span :class="outlinedStyle(1)">chat</span></router-link>
+                    <router-link to="/direct/inbox"
+                        ><span :class="outlinedStyle(1)">chat</span></router-link
+                    >
                 </button>
                 <button @click="navbtnsClick(2)">
                     <span :class="outlinedStyle(2)">add_box</span>
@@ -37,7 +39,7 @@
                 </button>
             </section>
 
-            <NotificationCenter v-show="anotherClicked"></NotificationCenter>
+            <NotificationCenter v-show="notificationShow"></NotificationCenter>
         </header>
     </div>
 </template>
@@ -48,9 +50,6 @@
     export default {
         name: 'TopHeader',
         components: { NotificationCenter },
-        props: {
-            anotherClicked: Boolean,
-        },
         data() {
             return {
                 searchText: '',
@@ -88,7 +87,6 @@
                         break;
                     case 4:
                         console.log('heart');
-                        // this.$emit('notification-click');
                         this.notificationShow = !this.notificationShow;
                         break;
                     case 5:

@@ -57,7 +57,9 @@
             </div>
 
             <div class="feed-heart-field">
-                <img :src="require('@/assets/2.jpg')" alt="" srcset="" />
+                <div class="img-wrapper">
+                    <img :src="require('@/assets/2.jpg')" alt="" srcset="" />
+                </div>
                 <span><strong>mix__xx2</strong>님 외 <strong>여러 명</strong>이 좋아합니다.</span>
             </div>
             <div class="feed-writting">

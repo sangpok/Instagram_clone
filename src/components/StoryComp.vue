@@ -11,7 +11,10 @@
                 <img :src="require(`@/assets/${this.itemData.profileImg}`)" loading="lazy" />
             </div>
         </div>
-        <div class="story-user">{{ this.itemData.userName }}</div>
+        <div v-if="this.itemData.state === 'read'" class="story-user read">
+            {{ this.itemData.userName }}
+        </div>
+        <div v-else class="story-user">{{ this.itemData.userName }}</div>
     </div>
 </template>
 

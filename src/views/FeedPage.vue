@@ -76,7 +76,9 @@
         </section>
         <aside id="side-container">
             <section id="myprofile-field">
-                <img :src="require('@/assets/1.jpg')" alt="" srcset="" loading="lazy" />
+                <div class="img-wrapper">
+                    <img :src="require('@/assets/1.jpg')" alt="" srcset="" loading="lazy" />
+                </div>
                 <div class="info-field">
                     <span class="account-id">ju_hyun.kim</span>
                     <span class="account-name">김 주현</span>
@@ -90,7 +92,9 @@
                 </div>
                 <div id="recommend-list">
                     <div class="recommend-item">
-                        <img :src="require('@/assets/6.jpg')" alt="" srcset="" />
+                        <div class="img-wrapper">
+                            <img :src="require('@/assets/6.jpg')" alt="" srcset="" />
+                        </div>
                         <div class="info-field">
                             <span class="account-id">hiking_song</span>
                             <span class="account-name">hyeondongee님 외 8명이 팔로우합..</span>
@@ -98,7 +102,9 @@
                         <button id="follow-btn">팔로우</button>
                     </div>
                     <div class="recommend-item">
-                        <img :src="require('@/assets/2.jpg')" alt="" srcset="" />
+                        <div class="img-wrapper">
+                            <img :src="require('@/assets/2.jpg')" alt="" srcset="" />
+                        </div>
                         <div class="info-field">
                             <span class="account-id">trueman.gogi</span>
                             <span class="account-name">iam_ig_님 외 3명이 팔로우합니다</span>
@@ -106,7 +112,9 @@
                         <button id="follow-btn">팔로우</button>
                     </div>
                     <div class="recommend-item">
-                        <img :src="require('@/assets/3.jpg')" alt="" srcset="" />
+                        <div class="img-wrapper">
+                            <img :src="require('@/assets/3.jpg')" alt="" srcset="" />
+                        </div>
                         <div class="info-field">
                             <span class="account-id">seokho.kang.357</span>
                             <span class="account-name">jihye_bongbong님 외 9명이 팔로우...</span>
@@ -114,7 +122,9 @@
                         <button id="follow-btn">팔로우</button>
                     </div>
                     <div class="recommend-item">
-                        <img :src="require('@/assets/4.jpg')" alt="" srcset="" />
+                        <div class="img-wrapper">
+                            <img :src="require('@/assets/4.jpg')" alt="" srcset="" />
+                        </div>
 
                         <div class="info-field">
                             <span class="account-id">i_so_ng</span>
@@ -123,7 +133,9 @@
                         <button id="follow-btn">팔로우</button>
                     </div>
                     <div class="recommend-item">
-                        <img :src="require('@/assets/5.jpg')" alt="" srcset="" />
+                        <div class="img-wrapper">
+                            <img :src="require('@/assets/5.jpg')" alt="" srcset="" />
+                        </div>
 
                         <div class="info-field">
                             <span class="account-id">n_m_b_j_h</span>
@@ -174,6 +186,7 @@
                     params: {
                         userName: tmpList[idx].userName,
                         storyId: tmpList[idx].storyList[0].storyId,
+                        storyIdx: idx,
                     },
                 });
             },

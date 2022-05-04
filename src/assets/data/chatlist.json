@@ -1,0 +1,130 @@
+[
+    {
+        "cId": 0,
+        "userName": "정유나",
+        "profileImg": "1.jpg",
+        "lastMsg": "쥰나 편해!",
+        "isNewMsg": true,
+        "receivedTime": "1시간"
+    },
+    {
+        "cId": 1,
+        "userName": "d_hyenii",
+        "profileImg": "2.jpg",
+        "lastMsg": "헤헤",
+        "isNewMsg": true,
+        "receivedTime": "3시간"
+    },
+    {
+        "cId": 2,
+        "userName": "예림 | Yerim",
+        "profileImg": "3.jpg",
+        "lastMsg": "너만을 위한 노래를 불러줄...",
+        "isNewMsg": false,
+        "receivedTime": "4시간"
+    },
+    {
+        "cId": 3,
+        "userName": "강영선",
+        "profileImg": "4.jpg",
+        "lastMsg": "잘자요~~^^*",
+        "isNewMsg": false,
+        "receivedTime": "4시간"
+    },
+    {
+        "cId": 4,
+        "userName": "juhyo_cci",
+        "profileImg": "5.jpg",
+        "lastMsg": "저거 방송하는 알바도 있어",
+        "isNewMsg": false,
+        "receivedTime": "4시간"
+    },
+    {
+        "cId": 5,
+        "userName": "권영덕",
+        "profileImg": "6.jpg",
+        "lastMsg": "자라나는 아이들에게 관심...",
+        "isNewMsg": false,
+        "receivedTime": "7시간"
+    },
+    {
+        "cId": 6,
+        "userName": "이수정",
+        "profileImg": "7.jpg",
+        "lastMsg": "가보자고...!",
+        "isNewMsg": false,
+        "receivedTime": "18시간"
+    },
+    {
+        "cId": 7,
+        "userName": "_spring__0e.03",
+        "profileImg": "8.jpg",
+        "lastMsg": "짬에서 느껴지는 바-이브",
+        "isNewMsg": false,
+        "receivedTime": "19시간"
+    },
+    {
+        "cId": 8,
+        "userName": "정유나",
+        "profileImg": "1.jpg",
+        "lastMsg": "쥰나 편해!",
+        "isNewMsg": false,
+        "receivedTime": "1시간"
+    },
+    {
+        "cId": 9,
+        "userName": "d_hyenii",
+        "profileImg": "2.jpg",
+        "lastMsg": "헤헤",
+        "isNewMsg": false,
+        "receivedTime": "3시간"
+    },
+    {
+        "cId": 10,
+        "userName": "예림 | Yerim",
+        "profileImg": "3.jpg",
+        "lastMsg": "너만을 위한 노래를 불러줄...",
+        "isNewMsg": false,
+        "receivedTime": "4시간"
+    },
+    {
+        "cId": 11,
+        "userName": "강영선",
+        "profileImg": "4.jpg",
+        "lastMsg": "잘자요~~^^*",
+        "isNewMsg": false,
+        "receivedTime": "4시간"
+    },
+    {
+        "cId": 12,
+        "userName": "juhyo_cci",
+        "profileImg": "5.jpg",
+        "lastMsg": "저거 방송하는 알바도 있어",
+        "isNewMsg": false,
+        "receivedTime": "4시간"
+    },
+    {
+        "cId": 13,
+        "userName": "권영덕",
+        "profileImg": "6.jpg",
+        "lastMsg": "자라나는 아이들에게 관심...",
+        "isNewMsg": false,
+        "receivedTime": "7시간"
+    },
+    {
+        "cId": 14,
+        "userName": "이수정",
+        "profileImg": "7.jpg",
+        "lastMsg": "가보자고...!",
+        "isNewMsg": false,
+        "receivedTime": "18시간"
+    },
+    {
+        "cId": 15,
+        "userName": "_spring__0e.03",
+        "profileImg": "8.jpg",
+        "lastMsg": "짬에서 느껴지는 바-이브",
+        "isNewMsg": false,
+        "receivedTime": "19시간"
+    }
+]

@@ -18,7 +18,20 @@ const routes = [
         component: () => import('@/views/MainView'),
         children: [
             { path: '/main', component: () => import('@/views/FeedPage') },
-            { path: '/dm', component: () => import('@/views/DirectMsg') },
+            {
+                path: '/direct/inbox',
+                component: () => import('@/views/DirectMsg'),
+                children: [
+                    {
+                        path: ':chatTo',
+                        component: () => import('@/views/DirectMsg'),
+                        props: true,
+                        meta: {
+                            chatTo: String,
+                        },
+                    },
+                ],
+            },
             {
                 path: '/explore',
                 component: () => import('@/views/ExplorePage'),

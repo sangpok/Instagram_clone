@@ -138,5 +138,25 @@
                 "storyDuration": "5"
             }
         ]
+    },
+    {
+        "userName": "watery_1016",
+        "profileImg": "8.jpg",
+        "storyList": [
+            {
+                "storyId": "20220428101053",
+                "storyState": "friend",
+                "storyDate": "2022-04-28 10:10",
+                "storyImg": "8.jpg",
+                "storyDuration": "15"
+            },
+            {
+                "storyId": "20220428101535",
+                "storyState": "new",
+                "storyDate": "2022-04-28 15:35",
+                "storyImg": "8.jpg",
+                "storyDuration": "5"
+            }
+        ]
     }
 ]
