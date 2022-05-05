@@ -22,7 +22,8 @@
             .tool-field {
                 display: grid;
                 width: 100%;
-                padding: 20px;
+                height: 60px;
+                padding: 0 20px;
                 grid-template-columns: 1fr 1fr 1fr;
                 border-bottom: 1px solid var(--gray25);
 
@@ -180,6 +181,134 @@
                     font-weight: bolder;
                     color: white;
                     cursor: pointer;
+                }
+            }
+
+            .chat-field {
+                display: flex;
+                flex-direction: column;
+
+                .chat-to-info {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    height: 60px;
+                    width: 100%;
+                    padding: 0 24px;
+                    border-bottom: 1px solid var(--gray25);
+
+                    .img-wrapper {
+                        min-width: 24px;
+                        max-width: 24px;
+                        min-height: 24px;
+                        max-height: 24px;
+                        border-radius: 100%;
+                        margin-right: 12px;
+                        overflow: hidden;
+
+                        img {
+                            width: 24px;
+                            height: 24px;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .chat-to-name {
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+                }
+
+                .chat-log-field {
+                    padding: 18px;
+
+                    .speech-field {
+                        display: flex;
+                        flex-direction: column;
+                        margin-bottom: 8px;
+
+                        &:last-of-type {
+                            margin-bottom: 0;
+                        }
+
+                        .speech-bubble {
+                            width: fit-content;
+                            padding: 12px 18px;
+                            border-radius: 100px;
+                        }
+
+                        &.me {
+                            align-items: end;
+
+                            .speech-bubble {
+                                background: var(--gray10);
+                            }
+                        }
+
+                        &.to {
+                            justify-content: left;
+                            padding-left: 36px;
+
+                            .reply-story {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                margin: 12px 0;
+
+                                .line {
+                                    display: block;
+                                    width: 4px;
+                                    height: 36px;
+                                    border-radius: 5px;
+                                    background: var(--gray10);
+                                    margin-right: 16px;
+                                }
+
+                                .msg {
+                                    font-size: 12px;
+                                    color: var(--gray40);
+                                }
+                            }
+
+                            .speech-bubble {
+                                background: white;
+                                border: 1px solid var(--gray10);
+                            }
+
+                            &.last {
+                                position: relative;
+
+                                .img-wrapper {
+                                    position: absolute;
+                                    left: 0;
+                                    bottom: 0;
+                                    min-width: 24px;
+                                    max-width: 24px;
+                                    min-height: 24px;
+                                    max-height: 24px;
+                                    border-radius: 100%;
+                                    overflow: hidden;
+
+                                    img {
+                                        width: 24px;
+                                        height: 24px;
+                                        object-fit: cover;
+                                    }
+                                }
+
+                                .got-heart {
+                                    position: absolute;
+                                    background: var(--gray10);
+                                    border: 1px solid white;
+                                    border-radius: 100px;
+                                    left: 40px;
+                                    bottom: -12px;
+                                    font-size: 12px;
+                                    padding: 4px;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

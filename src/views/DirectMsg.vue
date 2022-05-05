@@ -48,18 +48,28 @@
                         <span class="chat-to-name">d_hyenii님</span>
                     </div>
                     <div class="chat-log-field">
-                        <div class="me-send">
-                            <span class="msg">ㅋㅋㅋ처음엔 뭔가</span>
-                        </div>
-                        <div class="to-send">
-                            <span class="msg">아 진짜?</span>
-                        </div>
-                        <div class="to-send last">
-                            <div class="img-wrapper">
-                                <img :src="require(`@/assets/1.jpg`)" alt="" />
+                        <div class="speech-field me">
+                            <div class="speech-bubble">
+                                <span class="msg">ㅋㅋㅋ처음엔 뭔가</span>
                             </div>
-                            <span class="msg">헤헤</span>
-                            <div class="got-heart">❤</div>
+                        </div>
+                        <div class="speech-field to">
+                            <div class="speech-bubble">
+                                <span class="msg">아 진짜?</span>
+                            </div>
+                        </div>
+                        <div class="speech-field to last">
+                            <div class="reply-story">
+                                <div class="line"></div>
+                                <span class="msg">회원님의 스토리에 답장을 보냈습니다.</span>
+                            </div>
+                            <div class="speech-bubble">
+                                <div class="img-wrapper">
+                                    <img :src="require(`@/assets/1.jpg`)" alt="" />
+                                </div>
+                                <span class="msg">헤헤</span>
+                                <div class="got-heart">💖</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -70,6 +80,7 @@
 
 <script>
     import chatListData from '@/assets/data/chatlist.json';
+    import chatlogData from '@/assets/data/chatdata.json';
 
     export default {
         name: 'DirectMsg',
@@ -79,6 +90,7 @@
             return {
                 sampleData: '',
                 myChatList: chatListData,
+                myChatLog: chatlogData,
             };
         },
         setup() {},
