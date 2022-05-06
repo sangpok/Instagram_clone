@@ -10,12 +10,17 @@
                             <span class="material-icons-outlined"> expand_more </span>
                         </button>
                     </div>
-                    <button id="new-dm">
+                    <button id="new-dm" @click="modalShow = true">
                         <span class="material-icons-outlined"> maps_ugc </span>
                     </button>
                 </div>
                 <div class="user-list-field">
-                    <div v-for="chatItem in this.myChatList" :key="chatItem.cId" class="user-item">
+                    <div
+                        v-for="chatItem in this.myChatList"
+                        :key="chatItem.cId"
+                        :class="curChatIdx === chatItem.cId ? 'user-item now' : 'user-item'"
+                        @click="changeChatIdx(chatItem.cId)"
+                    >
                         <div class="img-wrapper">
                             <img :src="require(`@/assets/${chatItem.profileImg}`)" alt="" />
                         </div>
@@ -43,61 +48,107 @@
                 <div v-else class="chat-field">
                     <div class="chat-to-info">
                         <div class="img-wrapper">
-                            <img :src="require(`@/assets/1.jpg`)" alt="" />
+                            <img
+                                :src="require(`@/assets/${myChatLog[curChatIdx].profileImg}`)"
+                                alt=""
+                            />
                         </div>
-                        <span class="chat-to-name">d_hyenii님</span>
+                        <span class="chat-to-name">{{ myChatLog[curChatIdx].userName }}님</span>
                     </div>
                     <div class="chat-log-field">
-                        <div class="speech-field me">
-                            <div class="speech-bubble">
-                                <span class="msg">ㅋㅋㅋ처음엔 뭔가</span>
-                            </div>
-                        </div>
-                        <div class="speech-field to">
-                            <div class="speech-bubble">
-                                <span class="msg">아 진짜?</span>
-                            </div>
-                        </div>
-                        <div class="speech-field to last">
-                            <div class="reply-story">
+                        <div
+                            v-for="curMsg in myChatLog[curChatIdx].chatLog"
+                            :key="curMsg.mId"
+                            :class="
+                                curMsg.sendUser === 'me'
+                                    ? 'speech-field me'
+                                    : 'speech-field to last'
+                            "
+                        >
+                            <div class="reply-story" v-if="curMsg.mType === 'reply'">
                                 <div class="line"></div>
-                                <span class="msg">회원님의 스토리에 답장을 보냈습니다.</span>
+                                <span class="msg" v-if="curMsg.sendUser === 'me'"
+                                    >스토리에 답장을 보냈습니다.</span
+                                >
+                                <span class="msg" v-else>회원님의 스토리에 답장을 보냈습니다.</span>
                             </div>
                             <div class="speech-bubble">
-                                <div class="img-wrapper">
-                                    <img :src="require(`@/assets/1.jpg`)" alt="" />
+                                <div class="img-wrapper" v-if="curMsg.lastMsg">
+                                    <img
+                                        :src="
+                                            require(`@/assets/${myChatLog[curChatIdx].profileImg}`)
+                                        "
+                                        alt=""
+                                    />
                                 </div>
-                                <span class="msg">헤헤</span>
-                                <div class="got-heart">💖</div>
+                                <span class="msg">{{ curMsg.message }}</span>
+                                <div class="got-heart" v-if="curMsg.gotHeart">💖</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-reply-container">
+                        <div class="chat-reply-field">
+                            <div class="input-field">
+                                <div class="input-content">
+                                    <button id="emoji">
+                                        <span class="material-icons">sentiment_satisfied_alt</span>
+                                    </button>
+                                    <input
+                                        type="text"
+                                        v-model="sendMessage"
+                                        placeholder="메시지 입력..."
+                                    />
+                                    <button id="attach-image" v-if="sendMessage === ''">
+                                        <span class="material-icons-outlined"> image </span>
+                                    </button>
+                                    <button id="send-heart" v-if="sendMessage === ''">
+                                        <span class="material-icons-outlined">favorite_border</span>
+                                    </button>
+                                    <button id="send" v-if="sendMessage !== ''">보내기</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <ModalComp v-if="modalShow" @background-click="bgClick"></ModalComp>
     </section>
 </template>
 
 <script>
     import chatListData from '@/assets/data/chatlist.json';
     import chatlogData from '@/assets/data/chatdata.json';
+    import ModalComp from '@/components/ModalComp.vue';
 
     export default {
         name: 'DirectMsg',
-        components: {},
+        components: { ModalComp },
         props: {},
         data() {
             return {
                 sampleData: '',
                 myChatList: chatListData,
                 myChatLog: chatlogData,
+                curChatIdx: 0,
+                sendMessage: '',
+                modalShow: false,
             };
         },
         setup() {},
         created() {},
         mounted() {},
         unmounted() {},
-        methods: {},
+        methods: {
+            changeChatIdx(Idx) {
+                this.curChatIdx = Idx;
+                this.$router.push(`/direct/inbox/${this.myChatLog[this.curChatIdx].userName}`);
+            },
+
+            bgClick() {
+                this.modalShow = false;
+            },
+        },
     };
 </script>
 

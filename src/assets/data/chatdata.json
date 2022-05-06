@@ -10,7 +10,8 @@
                 "sendUser": "me",
                 "sendTime": "20220505171110",
                 "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-                "gotHeart": false
+                "gotHeart": true,
+                "lastMsg": false
             },
             {
                 "mId": 1,
@@ -18,7 +19,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171111",
                 "message": "너 마스크 벗었어?!!",
-                "gotHeart": false
+                "gotHeart": true,
+                "lastMsg": true
             },
             {
                 "mId": 2,
@@ -26,15 +28,17 @@
                 "sendUser": "me",
                 "sendTime": "20220505171112",
                 "message": "나 오늘 늦잠자서",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 3,
-                "mType": "msg",
+                "mType": "reply",
                 "sendUser": "chatTo",
                 "sendTime": "20220505171113",
                 "message": "응",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": true
             },
             {
                 "mId": 4,
@@ -42,7 +46,8 @@
                 "sendUser": "me",
                 "sendTime": "20220505171114",
                 "message": "면도 못해서 마스크 썼어",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 5,
@@ -50,7 +55,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171115",
                 "message": "웃겨",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 6,
@@ -58,7 +64,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171116",
                 "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 7,
@@ -66,7 +73,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171117",
                 "message": "내일은 면도하고 마스크 벗자.",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 8,
@@ -74,7 +82,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171118",
                 "message": "물론 난 오늘 썼어..",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": true
             },
             {
                 "mId": 9,
@@ -82,7 +91,8 @@
                 "sendUser": "me",
                 "sendTime": "20220505171119",
                 "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 10,
@@ -90,7 +100,8 @@
                 "sendUser": "me",
                 "sendTime": "20220505171120",
                 "message": "근데 어차피 다시",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 11,
@@ -98,7 +109,8 @@
                 "sendUser": "me",
                 "sendTime": "20220505171121",
                 "message": "버스 타면 쓰고",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 12,
@@ -106,7 +118,8 @@
                 "sendUser": "me",
                 "sendTime": "20220505171122",
                 "message": "학교 가면 쓰고",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 13,
@@ -114,7 +127,8 @@
                 "sendUser": "me",
                 "sendTime": "20220505171123",
                 "message": "이상해...!!!! 번거로와!!!!!",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 14,
@@ -122,7 +136,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171124",
                 "message": "ㅋㅋㅋㅋㅋㅋ",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 15,
@@ -130,7 +145,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171125",
                 "message": "스트랩 써보라구",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 16,
@@ -138,7 +154,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171126",
                 "message": "쥰나 편해!",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": true
             }
         ]
     },
@@ -153,7 +170,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171110",
                 "message": "거기서 뭐해...?",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": true
             },
             {
                 "mId": 1,
@@ -161,7 +179,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171111",
                 "message": "저런데 막 들어가는거 아녀 임마",
-                "gotHeart": true
+                "gotHeart": true,
+                "lastMsg": true
             },
             {
                 "mId": 2,
@@ -169,7 +188,8 @@
                 "sendUser": "me",
                 "sendTime": "20220505171112",
                 "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 3,
@@ -177,7 +197,8 @@
                 "sendUser": "me",
                 "sendTime": "20220505171113",
                 "message": "몰래 들어간 거 아닙니다....",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 4,
@@ -185,7 +206,8 @@
                 "sendUser": "chatTo",
                 "sendTime": "20220505171114",
                 "message": "너 이제 회사다녀??",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": true
             },
             {
                 "mId": 5,
@@ -193,7 +215,8 @@
                 "sendUser": "me",
                 "sendTime": "20220505171115",
                 "message": "그럴리가",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
             },
             {
                 "mId": 6,
@@ -201,7 +224,1834 @@
                 "sendUser": "me",
                 "sendTime": "20220505171116",
                 "message": "문식이형 일하는 곳 잠깐 찾아간 거야~",
-                "gotHeart": false
+                "gotHeart": false,
+                "lastMsg": false
+            }
+        ]
+    },
+    {
+        "cId": 2,
+        "userName": "예림 | Yerim",
+        "profileImg": "3.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171110",
+                "message": "아준생이 뭐야",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 1,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171111",
+                "message": "아나운서 준비생",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171112",
+                "message": "아하",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 3,
+                "mType": "reply",
+                "sendUser": "me",
+                "sendTime": "20220505171113",
+                "message": "잘 살아 예림?",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171114",
+                "message": "살아는 있다 오바",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171115",
+                "message": "그대는 잘 사는가",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171116",
+                "message": "요즘따라 허리가 아픈 것 빼고는 죽지도 않고 잘 살아있어",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 7,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171117",
+                "message": "좋다",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 8,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171118",
+                "message": "적절한 때에 한 번 보자",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 9,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171119",
+                "message": "노래부르는 줄 개 설렜네",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 10,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171120",
+                "message": "너만을 위한 노래를 불러줄게",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 11,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171121",
+                "message": "영광",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 12,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171122",
+                "message": "반응 우사인 볼트네",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 13,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171123",
+                "message": "기다리고 있었거든",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 14,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171124",
+                "message": "감동",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 15,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171125",
+                "message": "몸은 괜찮아졌어 ?",
+                "gotHeart": false,
+                "lastMsg": false
+            }
+        ]
+    },
+    {
+        "cId": 3,
+        "userName": "강영선",
+        "profileImg": "4.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "me",
+                "sendTime": "20220505171110",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 1,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171111",
+                "message": "너 마스크 벗었어?!!",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171112",
+                "message": "나 오늘 늦잠자서",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 3,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171113",
+                "message": "응",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171114",
+                "message": "면도 못해서 마스크 썼어",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171115",
+                "message": "웃겨",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171116",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 7,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171117",
+                "message": "내일은 면도하고 마스크 벗자.",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 8,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171118",
+                "message": "물론 난 오늘 썼어..",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 9,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171119",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 10,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171120",
+                "message": "근데 어차피 다시",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 11,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171121",
+                "message": "버스 타면 쓰고",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 12,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171122",
+                "message": "학교 가면 쓰고",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 13,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171123",
+                "message": "이상해...!!!! 번거로와!!!!!",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 14,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171124",
+                "message": "ㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 15,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171125",
+                "message": "스트랩 써보라구",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 16,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171126",
+                "message": "쥰나 편해!",
+                "gotHeart": false,
+                "lastMsg": true
+            }
+        ]
+    },
+    {
+        "cId": 4,
+        "userName": "juhyo_cci",
+        "profileImg": "5.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171110",
+                "message": "거기서 뭐해...?",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 1,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171111",
+                "message": "저런데 막 들어가는거 아녀 임마",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171112",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 3,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171113",
+                "message": "몰래 들어간 거 아닙니다....",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171114",
+                "message": "너 이제 회사다녀??",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171115",
+                "message": "그럴리가",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171116",
+                "message": "문식이형 일하는 곳 잠깐 찾아간 거야~",
+                "gotHeart": false,
+                "lastMsg": false
+            }
+        ]
+    },
+    {
+        "cId": 5,
+        "userName": "권영덕",
+        "profileImg": "6.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171110",
+                "message": "아준생이 뭐야",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 1,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171111",
+                "message": "아나운서 준비생",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171112",
+                "message": "아하",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 3,
+                "mType": "reply",
+                "sendUser": "me",
+                "sendTime": "20220505171113",
+                "message": "잘 살아 예림?",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171114",
+                "message": "살아는 있다 오바",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171115",
+                "message": "그대는 잘 사는가",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171116",
+                "message": "요즘따라 허리가 아픈 것 빼고는 죽지도 않고 잘 살아있어",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 7,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171117",
+                "message": "좋다",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 8,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171118",
+                "message": "적절한 때에 한 번 보자",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 9,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171119",
+                "message": "노래부르는 줄 개 설렜네",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 10,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171120",
+                "message": "너만을 위한 노래를 불러줄게",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 11,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171121",
+                "message": "영광",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 12,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171122",
+                "message": "반응 우사인 볼트네",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 13,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171123",
+                "message": "기다리고 있었거든",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 14,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171124",
+                "message": "감동",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 15,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171125",
+                "message": "몸은 괜찮아졌어 ?",
+                "gotHeart": false,
+                "lastMsg": false
+            }
+        ]
+    },
+    {
+        "cId": 6,
+        "userName": "이수정",
+        "profileImg": "7.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "me",
+                "sendTime": "20220505171110",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 1,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171111",
+                "message": "너 마스크 벗었어?!!",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171112",
+                "message": "나 오늘 늦잠자서",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 3,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171113",
+                "message": "응",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171114",
+                "message": "면도 못해서 마스크 썼어",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171115",
+                "message": "웃겨",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171116",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 7,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171117",
+                "message": "내일은 면도하고 마스크 벗자.",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 8,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171118",
+                "message": "물론 난 오늘 썼어..",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 9,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171119",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 10,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171120",
+                "message": "근데 어차피 다시",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 11,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171121",
+                "message": "버스 타면 쓰고",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 12,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171122",
+                "message": "학교 가면 쓰고",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 13,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171123",
+                "message": "이상해...!!!! 번거로와!!!!!",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 14,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171124",
+                "message": "ㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 15,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171125",
+                "message": "스트랩 써보라구",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 16,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171126",
+                "message": "쥰나 편해!",
+                "gotHeart": false,
+                "lastMsg": true
+            }
+        ]
+    },
+    {
+        "cId": 7,
+        "userName": "_spring__0e.03",
+        "profileImg": "8.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171110",
+                "message": "거기서 뭐해...?",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 1,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171111",
+                "message": "저런데 막 들어가는거 아녀 임마",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171112",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 3,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171113",
+                "message": "몰래 들어간 거 아닙니다....",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171114",
+                "message": "너 이제 회사다녀??",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171115",
+                "message": "그럴리가",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171116",
+                "message": "문식이형 일하는 곳 잠깐 찾아간 거야~",
+                "gotHeart": false,
+                "lastMsg": false
+            }
+        ]
+    },
+    {
+        "cId": 8,
+        "userName": "정유나",
+        "profileImg": "1.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171110",
+                "message": "아준생이 뭐야",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 1,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171111",
+                "message": "아나운서 준비생",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171112",
+                "message": "아하",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 3,
+                "mType": "reply",
+                "sendUser": "me",
+                "sendTime": "20220505171113",
+                "message": "잘 살아 예림?",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171114",
+                "message": "살아는 있다 오바",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171115",
+                "message": "그대는 잘 사는가",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171116",
+                "message": "요즘따라 허리가 아픈 것 빼고는 죽지도 않고 잘 살아있어",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 7,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171117",
+                "message": "좋다",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 8,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171118",
+                "message": "적절한 때에 한 번 보자",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 9,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171119",
+                "message": "노래부르는 줄 개 설렜네",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 10,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171120",
+                "message": "너만을 위한 노래를 불러줄게",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 11,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171121",
+                "message": "영광",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 12,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171122",
+                "message": "반응 우사인 볼트네",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 13,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171123",
+                "message": "기다리고 있었거든",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 14,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171124",
+                "message": "감동",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 15,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171125",
+                "message": "몸은 괜찮아졌어 ?",
+                "gotHeart": false,
+                "lastMsg": false
+            }
+        ]
+    },
+    {
+        "cId": 9,
+        "userName": "정유나",
+        "profileImg": "2.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "me",
+                "sendTime": "20220505171110",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 1,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171111",
+                "message": "너 마스크 벗었어?!!",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171112",
+                "message": "나 오늘 늦잠자서",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 3,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171113",
+                "message": "응",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171114",
+                "message": "면도 못해서 마스크 썼어",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171115",
+                "message": "웃겨",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171116",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 7,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171117",
+                "message": "내일은 면도하고 마스크 벗자.",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 8,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171118",
+                "message": "물론 난 오늘 썼어..",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 9,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171119",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 10,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171120",
+                "message": "근데 어차피 다시",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 11,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171121",
+                "message": "버스 타면 쓰고",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 12,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171122",
+                "message": "학교 가면 쓰고",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 13,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171123",
+                "message": "이상해...!!!! 번거로와!!!!!",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 14,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171124",
+                "message": "ㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 15,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171125",
+                "message": "스트랩 써보라구",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 16,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171126",
+                "message": "쥰나 편해!",
+                "gotHeart": false,
+                "lastMsg": true
+            }
+        ]
+    },
+    {
+        "cId": 10,
+        "userName": "d_hyenii",
+        "profileImg": "3.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171110",
+                "message": "거기서 뭐해...?",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 1,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171111",
+                "message": "저런데 막 들어가는거 아녀 임마",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171112",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 3,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171113",
+                "message": "몰래 들어간 거 아닙니다....",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171114",
+                "message": "너 이제 회사다녀??",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171115",
+                "message": "그럴리가",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171116",
+                "message": "문식이형 일하는 곳 잠깐 찾아간 거야~",
+                "gotHeart": false,
+                "lastMsg": false
+            }
+        ]
+    },
+    {
+        "cId": 11,
+        "userName": "예림 | Yerim",
+        "profileImg": "4.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171110",
+                "message": "아준생이 뭐야",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 1,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171111",
+                "message": "아나운서 준비생",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171112",
+                "message": "아하",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 3,
+                "mType": "reply",
+                "sendUser": "me",
+                "sendTime": "20220505171113",
+                "message": "잘 살아 예림?",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171114",
+                "message": "살아는 있다 오바",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171115",
+                "message": "그대는 잘 사는가",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171116",
+                "message": "요즘따라 허리가 아픈 것 빼고는 죽지도 않고 잘 살아있어",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 7,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171117",
+                "message": "좋다",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 8,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171118",
+                "message": "적절한 때에 한 번 보자",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 9,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171119",
+                "message": "노래부르는 줄 개 설렜네",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 10,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171120",
+                "message": "너만을 위한 노래를 불러줄게",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 11,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171121",
+                "message": "영광",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 12,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171122",
+                "message": "반응 우사인 볼트네",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 13,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171123",
+                "message": "기다리고 있었거든",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 14,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171124",
+                "message": "감동",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 15,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171125",
+                "message": "몸은 괜찮아졌어 ?",
+                "gotHeart": false,
+                "lastMsg": false
+            }
+        ]
+    },
+    {
+        "cId": 12,
+        "userName": "강영선",
+        "profileImg": "5.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "me",
+                "sendTime": "20220505171110",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 1,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171111",
+                "message": "너 마스크 벗었어?!!",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171112",
+                "message": "나 오늘 늦잠자서",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 3,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171113",
+                "message": "응",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171114",
+                "message": "면도 못해서 마스크 썼어",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171115",
+                "message": "웃겨",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171116",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 7,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171117",
+                "message": "내일은 면도하고 마스크 벗자.",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 8,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171118",
+                "message": "물론 난 오늘 썼어..",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 9,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171119",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 10,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171120",
+                "message": "근데 어차피 다시",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 11,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171121",
+                "message": "버스 타면 쓰고",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 12,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171122",
+                "message": "학교 가면 쓰고",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 13,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171123",
+                "message": "이상해...!!!! 번거로와!!!!!",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 14,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171124",
+                "message": "ㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 15,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171125",
+                "message": "스트랩 써보라구",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 16,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171126",
+                "message": "쥰나 편해!",
+                "gotHeart": false,
+                "lastMsg": true
+            }
+        ]
+    },
+    {
+        "cId": 13,
+        "userName": "juhyo_cci",
+        "profileImg": "6.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171110",
+                "message": "거기서 뭐해...?",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 1,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171111",
+                "message": "저런데 막 들어가는거 아녀 임마",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171112",
+                "message": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 3,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171113",
+                "message": "몰래 들어간 거 아닙니다....",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171114",
+                "message": "너 이제 회사다녀??",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171115",
+                "message": "그럴리가",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171116",
+                "message": "문식이형 일하는 곳 잠깐 찾아간 거야~",
+                "gotHeart": false,
+                "lastMsg": false
+            }
+        ]
+    },
+    {
+        "cId": 14,
+        "userName": "권영덕",
+        "profileImg": "7.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171110",
+                "message": "아준생이 뭐야",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 1,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171111",
+                "message": "아나운서 준비생",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171112",
+                "message": "아하",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 3,
+                "mType": "reply",
+                "sendUser": "me",
+                "sendTime": "20220505171113",
+                "message": "잘 살아 예림?",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171114",
+                "message": "살아는 있다 오바",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171115",
+                "message": "그대는 잘 사는가",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171116",
+                "message": "요즘따라 허리가 아픈 것 빼고는 죽지도 않고 잘 살아있어",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 7,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171117",
+                "message": "좋다",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 8,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171118",
+                "message": "적절한 때에 한 번 보자",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 9,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171119",
+                "message": "노래부르는 줄 개 설렜네",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 10,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171120",
+                "message": "너만을 위한 노래를 불러줄게",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 11,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171121",
+                "message": "영광",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 12,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171122",
+                "message": "반응 우사인 볼트네",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 13,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171123",
+                "message": "기다리고 있었거든",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 14,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171124",
+                "message": "감동",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 15,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171125",
+                "message": "몸은 괜찮아졌어 ?",
+                "gotHeart": false,
+                "lastMsg": false
+            }
+        ]
+    },
+    {
+        "cId": 15,
+        "userName": "이수정",
+        "profileImg": "8.jpg",
+        "chatLog": [
+            {
+                "mId": 0,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171110",
+                "message": "아준생이 뭐야",
+                "gotHeart": false,
+                "lastMsg": true
+            },
+            {
+                "mId": 1,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171111",
+                "message": "아나운서 준비생",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 2,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171112",
+                "message": "아하",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 3,
+                "mType": "reply",
+                "sendUser": "me",
+                "sendTime": "20220505171113",
+                "message": "잘 살아 예림?",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 4,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171114",
+                "message": "살아는 있다 오바",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 5,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171115",
+                "message": "그대는 잘 사는가",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 6,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171116",
+                "message": "요즘따라 허리가 아픈 것 빼고는 죽지도 않고 잘 살아있어",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 7,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171117",
+                "message": "좋다",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 8,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171118",
+                "message": "적절한 때에 한 번 보자",
+                "gotHeart": true,
+                "lastMsg": true
+            },
+            {
+                "mId": 9,
+                "mType": "reply",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171119",
+                "message": "노래부르는 줄 개 설렜네",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 10,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171120",
+                "message": "너만을 위한 노래를 불러줄게",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 11,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171121",
+                "message": "영광",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 12,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171122",
+                "message": "반응 우사인 볼트네",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 13,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171123",
+                "message": "기다리고 있었거든",
+                "gotHeart": false,
+                "lastMsg": false
+            },
+            {
+                "mId": 14,
+                "mType": "msg",
+                "sendUser": "chatTo",
+                "sendTime": "20220505171124",
+                "message": "감동",
+                "gotHeart": true,
+                "lastMsg": false
+            },
+            {
+                "mId": 15,
+                "mType": "msg",
+                "sendUser": "me",
+                "sendTime": "20220505171125",
+                "message": "몸은 괜찮아졌어 ?",
+                "gotHeart": false,
+                "lastMsg": false
             }
         ]
     }

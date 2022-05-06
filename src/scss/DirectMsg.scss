@@ -221,11 +221,15 @@
 
                 .chat-log-field {
                     padding: 18px;
+                    min-height: 680px;
+                    max-height: 680px;
+                    overflow-y: scroll;
 
                     .speech-field {
                         display: flex;
                         flex-direction: column;
-                        margin-bottom: 8px;
+                        margin-bottom: 12px;
+                        font-size: 14px;
 
                         &:last-of-type {
                             margin-bottom: 0;
@@ -238,7 +242,40 @@
                         }
 
                         &.me {
+                            position: relative;
                             align-items: end;
+
+                            .reply-story {
+                                display: flex;
+                                flex-direction: row-reverse;
+                                align-items: center;
+                                margin-bottom: 12px;
+
+                                .line {
+                                    display: block;
+                                    width: 4px;
+                                    height: 36px;
+                                    border-radius: 5px;
+                                    background: var(--gray10);
+                                    margin-left: 16px;
+                                }
+
+                                .msg {
+                                    font-size: 12px;
+                                    color: var(--gray40);
+                                }
+                            }
+
+                            .got-heart {
+                                position: absolute;
+                                background: var(--gray10);
+                                border: 1px solid white;
+                                border-radius: 100px;
+                                right: 0px;
+                                bottom: -12px;
+                                font-size: 12px;
+                                padding: 4px;
+                            }
 
                             .speech-bubble {
                                 background: var(--gray10);
@@ -246,6 +283,7 @@
                         }
 
                         &.to {
+                            position: relative;
                             justify-content: left;
                             padding-left: 36px;
 
@@ -253,7 +291,7 @@
                                 display: flex;
                                 flex-direction: row;
                                 align-items: center;
-                                margin: 12px 0;
+                                margin-bottom: 12px;
 
                                 .line {
                                     display: block;
@@ -268,6 +306,17 @@
                                     font-size: 12px;
                                     color: var(--gray40);
                                 }
+                            }
+
+                            .got-heart {
+                                position: absolute;
+                                background: var(--gray10);
+                                border: 1px solid white;
+                                border-radius: 100px;
+                                left: 36px;
+                                bottom: -12px;
+                                font-size: 12px;
+                                padding: 4px;
                             }
 
                             .speech-bubble {
@@ -295,16 +344,57 @@
                                         object-fit: cover;
                                     }
                                 }
+                            }
+                        }
+                    }
+                }
 
-                                .got-heart {
-                                    position: absolute;
-                                    background: var(--gray10);
-                                    border: 1px solid white;
-                                    border-radius: 100px;
-                                    left: 40px;
-                                    bottom: -12px;
-                                    font-size: 12px;
-                                    padding: 4px;
+                .chat-reply-container {
+                    width: 100%;
+
+                    .chat-reply-field {
+                        display: block;
+                        padding: 20px;
+
+                        .input-field {
+                            border: 1px solid var(--gray10);
+                            border-radius: 100px;
+                            width: 100%;
+                            height: 44px;
+                            padding: 0 18px;
+
+                            .input-content {
+                                display: flex;
+                                flex-direction: row;
+                                align-items: center;
+                                height: 100%;
+
+                                button {
+                                    background: none;
+                                    border: none;
+                                    outline: none;
+                                    appearance: none;
+                                    cursor: pointer;
+
+                                    margin-right: 12px;
+
+                                    &:last-of-type {
+                                        margin-right: 0;
+                                    }
+
+                                    &#send {
+                                        color: var(--point);
+                                        font-weight: bold;
+                                        min-width: fit-content;
+                                    }
+                                }
+
+                                input[type='text'] {
+                                    background: none;
+                                    border: none;
+                                    outline: none;
+                                    appearance: none;
+                                    width: 100%;
                                 }
                             }
                         }
