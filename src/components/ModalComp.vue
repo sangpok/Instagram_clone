@@ -1,8 +1,10 @@
 <template>
-    <div class="full-container" @click.self="backgroundClick">
+    <div class="modal-full-container" @click.self="backgroundClick">
+        <slot name="outside-left"></slot>
         <div class="modal-container">
             <slot></slot>
         </div>
+        <slot name="outside-right"></slot>
     </div>
 </template>
 

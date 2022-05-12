@@ -36,6 +36,14 @@ const routes = [
                 path: '/explore',
                 component: () => import('@/views/ExplorePage'),
             },
+            {
+                path: '/:userName',
+                component: () => import(`@/views/ProfilePage`),
+                props: true,
+                meta: {
+                    userName: String,
+                },
+            },
         ],
         meta: {
             requiresAuth: true,

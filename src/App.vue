@@ -4,9 +4,15 @@
 
 <script>
     export default {
+        mounted() {
+            document.addEventListener('scroll', this.changeScrollTop);
+        },
         methods: {
-            ff(event) {
-                console.log(event);
+            changeScrollTop() {
+                document.documentElement.style.setProperty(
+                    '--now-scroll-top',
+                    `-${window.scrollY}px`
+                );
             },
         },
     };

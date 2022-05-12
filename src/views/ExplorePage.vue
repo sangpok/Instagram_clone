@@ -1,5 +1,20 @@
 <template>
-    <div></div>
+    <div>
+        <button @click="modalShow = true">모달 테스트 좀 할게요.....</button>
+
+        <div v-if="modalShow" @click.self="modalShow = false" class="modal-container">
+            <div class="button-field">
+                <button>Left</button>
+            </div>
+            <div class="box-container">
+                <div class="left-box">left</div>
+                <div class="right-box">right</div>
+            </div>
+            <div class="button-field">
+                <button>Right</button>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
@@ -9,6 +24,7 @@
         data() {
             return {
                 sampleData: '',
+                modalShow: false,
             };
         },
         setup() {},

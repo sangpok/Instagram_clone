@@ -14,28 +14,30 @@
 
             <section id="navbtn-field">
                 <button @click="navbtnClick(0)">
-                    <router-link to="/main"
-                        ><span :class="outlinedStyle(0)">home</span></router-link
-                    >
+                    <router-link to="/main">
+                        <span :class="outlinedStyle(0)">home</span>
+                    </router-link>
                 </button>
                 <button @click="navbtnClick(1)">
-                    <router-link to="/direct/inbox"
-                        ><span :class="outlinedStyle(1)">chat</span></router-link
-                    >
+                    <router-link to="/direct/inbox">
+                        <span :class="outlinedStyle(1)">chat</span>
+                    </router-link>
                 </button>
                 <button @click="navbtnsClick(2)">
                     <span :class="outlinedStyle(2)">add_box</span>
                 </button>
                 <button @click="navbtnClick(3)">
-                    <router-link to="/explore"
-                        ><span :class="outlinedStyle(3)">explore</span></router-link
-                    >
+                    <router-link to="/explore">
+                        <span :class="outlinedStyle(3)">explore</span>
+                    </router-link>
                 </button>
                 <button @click="navbtnClick(4)">
                     <span :class="outlinedStyle(4)">favorite_border</span>
                 </button>
                 <button @click="navbtnClick(5)">
-                    <span :class="outlinedStyle(5)">account_circle</span>
+                    <router-link to="/juhenside">
+                        <span :class="outlinedStyle(5)">account_circle</span>
+                    </router-link>
                 </button>
             </section>
 
