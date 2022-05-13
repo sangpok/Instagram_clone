@@ -1,44 +1,263 @@
 .modal-container {
     display: flex;
-    flex-direction: row;
-    justify-content: stretch;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background: rgba(#121212, 0.5);
-    padding: 24px 0;
-    position: absolute;
+    background: rgba(#121212, 0.65);
+    position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
     z-index: 999;
 
-    .button-field {
-        display: flex;
-        align-items: center;
-        padding: 0 24px;
+    .close-field {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
 
-        button {
-            width: 42px;
-            height: 42px;
+    .nav-btn-container {
+        position: absolute;
+        display: flex;
+        align-items: stretch;
+        padding: 10px;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+
+        .nav-btn-field {
+            position: relative;
+            width: 100%;
+            height: 100%;
+
+            .button-left {
+                position: absolute;
+                left: 0;
+                top: 50%;
+            }
+
+            .button-right {
+                position: absolute;
+                top: 50%;
+                right: 0;
+            }
+
+            button {
+                width: 42px;
+                height: 42px;
+                pointer-events: auto;
+                cursor: pointer;
+            }
         }
     }
 
     .box-container {
         display: flex;
-        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         width: 100%;
-        max-width: 100%;
-        max-height: 100%;
-        aspect-ratio: 16 / 9;
-        border: 1px solid red;
-        background: white;
+        height: 100%;
+        padding: 24px 64px;
+        pointer-events: none;
 
-        .left-box {
+        .box-field {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
             width: 100%;
-        }
+            min-height: 540px;
+            background-color: transparent;
+            pointer-events: auto;
 
-        .right-box {
-            width: 100%;
+            .left-box {
+                display: flex;
+                align-items: center;
+                background-color: black;
+                flex: 1 1 879px;
+                max-width: 879px;
+                max-height: 879px;
+
+                img {
+                    display: block;
+                    aspect-ratio: 1 / 1;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .right-box {
+                border-radius: 0 4px 4px 0;
+                background-color: white;
+                flex: 1 2 auto;
+                max-width: 500px;
+                min-width: 405px;
+
+                .top {
+                    padding: 16px;
+                    border-bottom: 1px solid var(--gray10);
+
+                    .top-content {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+
+                        .img-wrapper {
+                            border-radius: 50%;
+                            min-width: 32px;
+                            max-width: 32px;
+                            min-height: 32px;
+                            max-height: 32px;
+                            overflow: hidden;
+                            margin-right: 12px;
+
+                            img {
+                                width: 32px;
+                                height: 32px;
+                                object-fit: cover;
+                            }
+                        }
+
+                        .ele-group {
+                            display: flex;
+                            align-items: center;
+                            flex: 1 1 auto;
+                            font-size: 14px;
+                            font-weight: 700;
+
+                            .dot {
+                                border-radius: 100px;
+                                background-color: var(--gray100);
+                                min-width: 3px;
+                                max-width: 3px;
+                                min-height: 3px;
+                                max-height: 3px;
+                                margin: 0 6px;
+                            }
+
+                            button {
+                                margin-top: -3px;
+                                background: none;
+                                border: none;
+                                outline: none;
+                                appearance: none;
+                                font-weight: 700;
+                                color: var(--point);
+                                cursor: pointer;
+                            }
+                        }
+
+                        button {
+                            background: none;
+                            border: none;
+                            outline: none;
+                            appearance: none;
+                            cursor: pointer;
+                        }
+                    }
+                }
+
+                .content {
+                    border-bottom: 1px solid var(--gray10);
+                    padding: 24px 16px;
+
+                    .content-inside {
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        height: 100%;
+
+                        .profile {
+                            .img-wrapper {
+                                border-radius: 50%;
+                                min-width: 32px;
+                                max-width: 32px;
+                                min-height: 32px;
+                                max-height: 32px;
+                                overflow: hidden;
+                                margin-right: 12px;
+
+                                img {
+                                    width: 32px;
+                                    height: 32px;
+                                    object-fit: cover;
+                                }
+                            }
+                        }
+
+                        .post {
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                .tool {
+                    padding: 12px;
+
+                    .top-btn-field {
+                        display: flex;
+                        width: 100%;
+                        height: 100%;
+
+                        button {
+                            background: none;
+                            border: none;
+                            outline: none;
+                            appearance: none;
+                            width: 40px;
+                            height: 40px;
+                            cursor: pointer;
+
+                            span {
+                                font-size: 28px;
+                            }
+
+                            &:last-of-type {
+                                border: 1px solid red;
+                                margin-left: auto;
+                            }
+                        }
+                    }
+
+                    .like-field {
+                        display: flex;
+                        flex-direction: row;
+
+                        .profile-list {
+                            display: flex;
+                            flex-direction: row;
+                            margin-right: 8px;
+
+                            .img-wrapper {
+                                border-radius: 100%;
+                                min-width: 20px;
+                                max-width: 20px;
+                                min-height: 20px;
+                                max-height: 20px;
+                                overflow: hidden;
+                                border: 2px solid white;
+                                box-sizing: content-box;
+
+                                img {
+                                    width: 20px;
+                                    height: 20px;
+                                    object-fit: cover;
+                                }
+
+                                &:not(:first-of-type) {
+                                    margin-left: -5px;
+                                }
+                            }
+                        }
+
+                        span {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
